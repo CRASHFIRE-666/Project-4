@@ -5,9 +5,8 @@ int main()
 {
     setlocale(LC_ALL, "Russian");
     cout << "Введите число" << endl;
-    
-	double a;
-	cin >> a;
+    double a;
+cin >> a;
 
     cout << a / 180 << endl;
 
