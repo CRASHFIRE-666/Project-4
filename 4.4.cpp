@@ -1,12 +1,19 @@
 #include <iostream>
+#include <string> 
+#include <cmath>
 using namespace std;
-
 int main()
 {
-    setlocale(LC_ALL, "Russian");
-    float v1,v2,s,t,s1;
-    cout<<"Ввежите скорости автомобилей и сколько км между ними и время"<<endl;
-    cin>>v1>>v2>>s>>t;
-    s1=(v1+v2)*t+s;
-    cout<<"Расстояние="<<s1<<endl;
+	double v1, v2, s, fs, t;
+
+	cin >> v1 >> v2 >> s >> t;
+
+	fs = (v1 + v2) * t + s;
+
+	cout << fs << endl;
+	
+
+	system("pause");
+	return 0;
+
 }
