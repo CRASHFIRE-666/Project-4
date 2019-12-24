@@ -1,12 +1,14 @@
 #include <iostream>
+#include <cmath>
 using namespace std;
-
 int main()
 {
-    setlocale(LC_ALL, "Russian");
-    float a,s;
-    cout<<"Введите число"<<endl;
-    cin>>a;
-    s=a/3.14*180;
-    cout<<a<<"="<<s<<" градусов "<<endl;
+	double a;
+
+	cin >> a;
+    cout << a * 180 << endl;
+	
+	system("pause");
+	return 0;
+
 }
