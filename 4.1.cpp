@@ -4,9 +4,14 @@ using namespace std;
 int main()
 {
     setlocale(LC_ALL, "Russian");
-    float a,s;
-    cout<<"Введите число"<<endl;
-    cin>>a;
-    s=a/180*3.14;
-    cout<<a<<"="<<s<<"радианов"<<endl;
+    cout << "Введите число" << endl;
+    
+	double a;
+	cin >> a;
+
+    cout << a / 180 << endl;
+
+    return 0;
+
 }
+   
