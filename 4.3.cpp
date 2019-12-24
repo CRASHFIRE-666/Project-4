@@ -1,23 +1,21 @@
 #include <iostream>
-#include <string> 
-#include <cmath>
 using namespace std;
 int main()
 {
     setlocale(LC_ALL, "Russian");
-    double price1, price2, amount1, amount2;
+    double x1, x2, y1, y2;
 
     cout << "Введите килограммы и цену";
 	
-    cin >> amount1 >> price1;
+    cin >> y1 >> x1;
 	
     cout << "Введите килограммы";
-    cin >> amount2;
+    cin >> y2;
 	
-    price2 = price1 * amount2 / amount1;
+    price2 = x1 * y2 / y1;
 	
-    cout << "Новая цена:" << price2 << endl;
-    cout << "Цена 1 килограмма:" << price2 / amount2 << endl;
+    cout << "Новая цена:" << x2 << endl;
+    cout << "Цена 1 килограмма:" << x2 / y2 << endl;
 	
     system("pause");
     return 0;
