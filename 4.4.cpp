@@ -1,16 +1,14 @@
 #include <iostream>
-#include <string> 
-#include <cmath>
 using namespace std;
 int main()
 {
-	double v1, v2, s, fs, t;
+	double v1, v2, s, y, t;
 
 	cin >> v1 >> v2 >> s >> t;
 
-	fs = (v1 + v2) * t + s;
+	y = (v1 + v2) * t + s;
 
-	cout << fs << endl;
+	cout << y << endl;
 	
 
 	system("pause");
